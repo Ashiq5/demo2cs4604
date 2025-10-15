@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h2>Available Movies</h2>
+  <ul>
+    {% for movie in movies %}
+      <li>
+        {{ movie.title }} ({{ movie.date }})
+        {% if movie.id in reserved %}
+          ✅ Reserved
+        {% else %}
+          <form method="POST" action="/reserve/{{ movie.id }}" style="display:inline;">
+            <button type="submit">Reserve</button>
+          </form>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
