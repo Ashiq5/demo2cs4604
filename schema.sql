@@ -1,5 +1,5 @@
 -- Create database
-CREATE DATABASE movie_db;
+CREATE DATABASE movie_db_new;
 
 -- Creation
 -- Users

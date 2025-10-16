@@ -4,7 +4,7 @@ from flask_bcrypt import Bcrypt
 from models import db, Users, Movie, Reservation
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:password@localhost/movie_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:password@localhost/movie_db_new'
 app.config['SECRET_KEY'] = 'secret123'
 db.init_app(app)
 bcrypt = Bcrypt(app)
