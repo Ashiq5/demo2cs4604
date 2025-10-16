@@ -36,3 +36,14 @@ INSERT INTO movie (title, "date") VALUES
   ('Inception',   '2025-10-09'),
   ('Interstellar','2025-10-10'),
   ('Tenet',       '2025-10-11');
+
+
+-- Helper functionalities inside psql
+-- Connect to DB
+-- \c <db_name>
+-- List tables inside the DB
+-- \dt
+-- Read
+-- Select * From <table_name>;
+-- Delete
+-- Delete From <table_name> where <condition>;
