@@ -1,5 +1,6 @@
 -- Create database
 CREATE DATABASE movie_db_new;
+-- \c movie_db_new
 
 -- Creation
 -- Users
