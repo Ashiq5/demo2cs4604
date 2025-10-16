@@ -1,3 +1,6 @@
+-- Create database
+CREATE DATABASE movie_db;
+
 -- Creation
 -- Users
 CREATE TABLE "user" (
