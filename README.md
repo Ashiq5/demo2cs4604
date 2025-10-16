@@ -1,3 +1,11 @@
+## Prerequisites
+1. Python
+2. Git
+3. Postgresql
+c. Remember your username and password (default is “postgres” with no “password”)
+d. Follow schema.sql to create tables and insert some movies beforehand
+
+
 ## Instructions to run:
 1. Clone the repo
    `git clone https://github.com/Ashiq5/demo2cs4604.git`

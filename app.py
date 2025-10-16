@@ -50,7 +50,7 @@ def login():
 def register():
     username = request.form['username']
     password = bcrypt.generate_password_hash(request.form['password']).decode('utf-8')
-    user = User(username=username, password=password)
+    user = Users(username=username, password=password)
     db.session.add(user)
     db.session.commit()
     flash('User registered! Please login.')
