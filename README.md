@@ -1,8 +1,8 @@
 ## Prerequisites
 1. Python
 2. Git
-3. Postgresql
-   a. Remember your username and password (default is “postgres” with no “password”)
+3. PostgreSQL<br>
+   a. Remember your username and password (default is “postgres” with no “password”)<br>
    b. Follow schema.sql to create db, tables, and insert some movies beforehand
 
 
