@@ -2,8 +2,8 @@
 1. Python
 2. Git
 3. Postgresql
-a. Remember your username and password (default is “postgres” with no “password”)
-b. Follow schema.sql to create db, tables, and insert some movies beforehand
+   a. Remember your username and password (default is “postgres” with no “password”)
+   b. Follow schema.sql to create db, tables, and insert some movies beforehand
 
 
 ## Instructions to run:
